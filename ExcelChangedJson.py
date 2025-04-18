@@ -7,7 +7,7 @@ data = df.to_dict(orient='records')#df.to_dict（）将其转换为字典，orie
 
 
 formatted_data = []#最终传出去的数据列表
-for row in data:
+for row in data:#表示遍历data中的某个元素，逐行处理数据
     item = {
         "text": row['word'],#这个为第一行的第一列的文本
         "metadata":{
