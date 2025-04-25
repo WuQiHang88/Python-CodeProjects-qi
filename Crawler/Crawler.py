@@ -7,6 +7,7 @@ from urllib.robotparser import RobotFileParser
 from urllib.parse import urljoin
 ##  添加可能需要的不同的库
 ##  类相当于汽车蓝图，实例相当于用这个蓝图造出一辆汽车
+##  下面的头请求部分，一般在document类型请求里，点击他就可以看到了
 
 class DoubanCrawler:   ## 定义一个类   ##主要更改部分，
     def __init__(self):
