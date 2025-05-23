@@ -10,7 +10,7 @@ import os  ## 提供与操作系统进行交互的功能
 import matplotlib  #
 
 # ======================
-# 1. 中文显示解决方案（增强版）
+# 1. 中文显示解决方案
 # ======================
 warnings.filterwarnings('ignore')
 plt.rcParams['axes.unicode_minus'] = False
