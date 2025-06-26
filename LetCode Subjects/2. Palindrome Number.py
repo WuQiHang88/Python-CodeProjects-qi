@@ -16,7 +16,7 @@ def isPalindrome(x):
     return x == reversed_num or x == reversed_num // 10   #当x长度为偶数时，x == reversed_num；奇数时，x == reversed_num // 10（如121，x=1，reversed_num=12）
 
 
-print(isPalindrome(121))
+print(isPalindrome(101))
 
 ##整体逻辑如下：
 ##1. 先排除掉，一定不可能为回文数的情况
